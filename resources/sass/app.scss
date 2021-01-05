@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+.wizard-form-enter-active, .wizard-form-leave-acrtive {
+    transform-origin: top;
+    transition: all 0.5s;
+}
+
+.wizard-form-enter, .wizard-form-leave-to {
+    opacity: 0;
+    transform: translateY(-30px) rotateX(90deg);
+
+}
